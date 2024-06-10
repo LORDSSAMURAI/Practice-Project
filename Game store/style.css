@@ -1,0 +1,307 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    color: white;
+    padding: 0 20px;
+}
+
+.contain {
+    background-color: black;
+    width: 90%;
+    margin-top: 70px;
+}
+
+.img-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.img img {
+    width: 600px;
+}
+
+.card-item img {
+    width: 200px;
+}
+
+.about-box {
+    margin-top: 20px;
+}
+
+.about {
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.download-box {
+    margin-top: 20px;
+    width: 100%;
+    border-top: 1px solid white;
+}
+
+.download {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.load {
+    color: rgb(201, 201, 201);
+}
+
+i {
+    color: rgb(13, 240, 13);
+}
+
+/* cards */
+
+.card {
+    max-width: 91vw;
+    margin: 31px auto;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0 20px;
+    color: white;
+    background-color: black;
+}
+
+.cards {
+    display: flex;
+    overflow: scroll;
+}
+
+.card-item {
+    display: inline-flex;
+    justify-content: center;
+    margin: 0 55px;
+    flex-direction: column;
+    transition: transform 0.2s;
+}
+
+.card-item:hover {
+    transform: translateY(-10px);
+}
+
+/* ABOUT-CONTAINER */
+
+.about-title {
+    margin-top: 200px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+section {
+    background-color: rgb(30, 42, 66);
+    height: 100vh;
+    width: 100%;
+}
+
+.row {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.about-content {
+    display: flex;
+}
+
+.about-content p {
+    margin-top: 10px;
+    color: whitesmoke;
+}
+
+.content1 {
+    margin-top: 50px;
+}
+
+/* footer */
+
+.foot-box {
+    background-color: black;
+    height: 40vh;
+}
+
+.foot {
+    color: white;
+    display: flex;
+    height: 40vh;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.copy-box {
+    width: 100%;
+    background-color: black;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copy {
+    color: rgb(202, 202, 202);
+}
+
+.big-container {
+    width: 100%;
+}
+
+.small-container {
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 5%;
+}
+
+.video-content{
+    display: flex;
+    align-items: center;
+}
+
+.vid{
+    margin-top: 3%;
+}
+
+.video video {
+    width: 100%;
+}
+
+.line-straight{
+    width: 5px;
+    height: 30px;
+    background-color: red;
+}
+
+h4{
+    color: white;
+    margin-left: 20px;
+}
+
+.video-box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.video-download{
+    border: 1px solid greenyellow;
+    padding: 10px 0px;
+    width: 50%;
+    border-radius: 20px;
+    text-align: center;
+    color: greenyellow;
+    cursor: pointer;
+
+}
+
+.video-download:hover{
+    background-color: greenyellow;
+    color: white;
+}
+
+.title1{
+    border: 1px solid white;
+    width: 20%;
+    padding: 3px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+}
+
+.ci{
+    height: 200px;
+}
+
+/* ABOUT CONTENT */
+
+.about-container{
+    background-color: rgb(33, 61, 108);
+    color: whitesmoke;
+    width: 100%;
+    margin: auto;
+    border-radius: 10px;
+    height: 50vh;
+    padding: 15px;
+}
+
+.about-contents{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ab-title{
+    font-size: 25px;
+}
+
+.rarr{
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.rarr:hover{
+    color: rgb(180, 180, 180);
+}
+
+.ab-content{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.gow-about{
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+/* COMMENTS AND REVIEWS */
+
+.reviews-section{
+    margin-top: 100px;
+}
+
+.review-user{
+    background-color: rgb(33, 61, 108);
+        border-radius: 10px;
+}
+
+.review{
+    color: whitesmoke;
+}
+
+.user-box{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#fa{
+    color: white;
+}
+
+.span{
+    color: rgb(214, 214, 214);
+    margin-left: 10px;
+}
+
+.user{
+    border: 1px solid white;
+    width: 26px;
+    border-radius: 100%;
+    text-align: center;
+    background-color: rgb(214, 214, 214);
+}
+
+.review-content{
+    margin-top: 40px;
+}
